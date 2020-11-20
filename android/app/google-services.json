@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "214530441104",
+    "firebase_url": "https://todo-list-firestore-4bfcf.firebaseio.com",
+    "project_id": "todo-list-firestore-4bfcf",
+    "storage_bucket": "todo-list-firestore-4bfcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214530441104:android:7e4f51b5110e9341a47d15",
+        "android_client_info": {
+          "package_name": "com.quifar.todo_list_firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214530441104-pugb4s5nlv5l0gcimdvg9igej83qtju7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Upq6qUxBhroSVugc0zCv14hSFao8wEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214530441104-pugb4s5nlv5l0gcimdvg9igej83qtju7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
