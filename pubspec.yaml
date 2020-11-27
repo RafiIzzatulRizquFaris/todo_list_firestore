@@ -26,6 +26,8 @@ dependencies:
   cupertino_icons: ^1.0.1
   cloud_firestore: ^0.13.5
   firebase_core: ^0.4.0+9
+  rflutter_alert: any
+  progress_dialog: any
 
 dev_dependencies:
   flutter_test:
