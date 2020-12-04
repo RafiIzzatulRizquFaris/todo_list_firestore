@@ -48,9 +48,16 @@ class _MyHomePageState extends State<MyHomePage> {
           return ListView.builder(
             itemCount: snapshot.data.documents.length,
             itemBuilder: (context, index) {
-              return ListTile(
-                title: Text(snapshot.data.documents[index]['task']),
-                subtitle: Text(snapshot.data.documents[index]['description']),
+              return Dismissible(
+                key: Key(snapshot.data.documents[index].documentID),
+                background: Container(color: Colors.red,),
+                onDismissed: (direction) async {
+                  Firestore.instance.collection('todo').document(snapshot.data.documents[index].documentID).delete();
+                },
+                child: ListTile(
+                  title: Text(snapshot.data.documents[index]['task']),
+                  subtitle: Text(snapshot.data.documents[index]['description']),
+                ),
               );
             },
           );
